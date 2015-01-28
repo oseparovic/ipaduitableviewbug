@@ -1,4 +1,4 @@
-# ipaduitableviewbug
+# iPadUITableViewBug
 This project is a heavily stripped down version of the bug found here: http://stackoverflow.com/questions/28155955/custom-uitableviewcell-elements-not-appearing-only-on-ipad
 
 In the implementation of the `tableView:cellForRowAtIndexPath:` method provided in `ViewController.m`, `self.view` is used to determine the horizonal centre point and thereby centre the labels in the cell. An example of this would be:
